@@ -3,7 +3,7 @@ GCD(a,b){a>b}=> GCD(b,a%b)
 ex: GCD(16,10)=>GCD(10,6)=>GCD(6,4)=>GCD(4,2)=>GCD(2,0)=> 2 Ans.
 
 */
-
+//time complexity=log2(max(a,b))
 
 #include<bits/stdc++.h>
 using namespace std;
